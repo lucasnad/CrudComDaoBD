@@ -27,5 +27,5 @@ $lista = $usuarioDao->findAll();
                 <a href="excluir.php?id=<?=$usuario->getID()?>"onclick="confirm('Tem certeza que deseja excluir esse item?')">[EXCLUIR]</a>
             </td>
         </tr>
-        <?php endforeach; ?>
+        <?php endforeach;?>
     </table>
